@@ -1,19 +1,6 @@
 # 🎵 Spotify Wrapped AI
 
-A real Spotify Wrapped-style story experience with AI/ML analysis of your listening data.
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.31+-red.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-
-## Features
-
-- **Story-Flow Experience**: 9 interactive slides mimicking Spotify Wrapped
-- **Big Numbers**: Your stats displayed with stunning visuals
-- **Mood Analysis**: AI-powered vibe detection with radar charts
-- **User Personality**: Are you an Explorer, Loyalist, or Party Animal?
-- **Percentile Rankings**: See how you compare to other listeners
-- **Personalized Recommendations**: ML-powered track suggestions
 
 ## Project Structure
 
@@ -71,14 +58,6 @@ Navigate to [http://localhost:8501](http://localhost:8501)
 | **UserClassifier** | Personality types | Rule-based + K-Means |
 | **HybridRecommender** | Track recommendations | CF + Content-Based |
 
-## Your Stats
-
-Based on your `SytheticData1000.csv`:
-
-- **2,414** tracks analyzed
-- **153** hours of music
-- **1,725** unique artists
-- **Personality**: The Party Animal 🎉
 
 ## Tech Stack
 
