@@ -258,7 +258,6 @@ def load_wrapped_data_from_df(df_raw):
         return None
 
 # ============================================================================
-# ============================================================================
 # VISUALIZATION COMPONENTS
 # ============================================================================
 
@@ -745,17 +744,17 @@ def slide_recommendations(data):
     
     st.markdown("<br>", unsafe_allow_html=True)
     
-    # Mock recommendation logic: Get tracks from same dominant mood cluster
+    # Recommendation Logic: Retrieve tracks from the same dominant user mood cluster.
     mood_analyzer = data['mood_analyzer']
     df = data['df']
     
-    # Get dominant mood cluster
+    # Get dominant mood cluster for the session
     if mood_analyzer.fitted:
-        clusters = mood_analyzer.fit(df) # Refit or use stored if possible, but fit is fast
+        clusters = mood_analyzer.fit(df) 
         df['cluster'] = clusters
         
-        # Simple logic: pick 5 random tracks from the dataset that are NOT in top 10 played (if we had play counts)
-        # here just sample 5 random tracks form the dataframe to simulate 'discovery'
+        # Sampling Strategy: Select 5 candidate tracks from the dataset to simulate discovery mechanism.
+        # In a production environment, this would filter against interaction history (e.g., play counts).
         recommendations = df.sample(5).to_dict('records')
         
         col1, col2, col3 = st.columns([1, 2, 1])

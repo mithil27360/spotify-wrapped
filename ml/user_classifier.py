@@ -1,6 +1,6 @@
 """
-USER CLASSIFIER - Listening Personality Classification
-Classify users into personality types based on listening behavior
+User Classification Module
+Objective: Categorize user listening patterns into distinct personality archetypes.
 """
 
 import numpy as np

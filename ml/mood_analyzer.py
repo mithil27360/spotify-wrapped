@@ -1,6 +1,6 @@
 """
-MOOD & VIBE ACCURACY - K-Means Clustering on Audio Features
-Goal: Understand the vibe of what users actually listen to
+Mood Analysis Module
+Objective: Identify latent user mood preferences using K-Means clustering on audio features.
 """
 
 import numpy as np
