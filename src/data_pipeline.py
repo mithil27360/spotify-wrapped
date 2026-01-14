@@ -1,6 +1,6 @@
 """
-DATA PIPELINE - Load and Process Spotify Listening Data
-Handles CSV parsing, feature engineering, and data preparation for ML models
+Data Pipeline Module
+Objective: Handle data ingestion, preprocessing, feature engineering, and cleaning for Spotify listening data.
 """
 
 import pandas as pd

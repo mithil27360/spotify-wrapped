@@ -1,6 +1,6 @@
 """
-HYBRID RECOMMENDATION ENGINE - Collaborative Filtering + Content-Based
-Scoring: 0.5*CF + 0.3*mood/genre + 0.2*recent_taste
+Hybrid Recommendation Module
+Objective: Integrate collaborative filtering, content-based filtering, and temporal analysis for personalized track recommendations.
 """
 
 import numpy as np

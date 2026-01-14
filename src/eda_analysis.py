@@ -1,6 +1,6 @@
 """
-EDA ANALYSIS - Comprehensive Exploratory Data Analysis
-Visualization and insights from Spotify listening data
+Exploratory Data Analysis Module
+Objective: Generate comprehensive visualizations and insights from processed Spotify listening data.
 """
 
 import pandas as pd
